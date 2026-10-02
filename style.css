@@ -66,7 +66,8 @@
  ul li{
     list-style: none;
     font-size: 17px;
-    padding: 12px 8px 12px 50px;
+    padding: 12px 90px 12px 50px;
+    word-break: break-word;
     cursor: pointer;
     user-select: none;
     position: relative;
@@ -109,4 +110,70 @@
 
  ul li span:hover{
    background: #edeef0;
+ }
+
+ /* ---------- New features (same palette as the original design) ---------- */
+
+ .filters{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+ }
+
+ .filter-btn{
+    padding: 8px 18px;
+    background: #edeef0;
+    color: #555;
+    font-size: 14px;
+    border-radius: 39px;
+ }
+
+ .filter-btn.active{
+    background: #ff5945;
+    color: #fff;
+ }
+
+ ul li span.edit-btn{
+    right: 40px;
+    font-size: 18px;
+ }
+
+ ul li.editing{
+    padding-right: 8px;
+    cursor: default;
+ }
+
+ .edit-input{
+    width: 100%;
+    background: #edeef0;
+    border-radius: 39px;
+    padding: 8px 16px;
+    font-size: 16px;
+ }
+
+ #empty-message{
+    text-align: center;
+    color: #555;
+    font-size: 15px;
+    padding: 10px 0;
+ }
+
+ .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #555;
+    font-size: 14px;
+ }
+
+ #clear-completed{
+    padding: 8px 12px;
+    background: transparent;
+    color: #ff5945;
+    font-size: 14px;
+ }
+
+ #clear-completed:hover{
+    text-decoration: underline;
  }

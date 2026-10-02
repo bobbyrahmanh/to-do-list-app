@@ -10,14 +10,23 @@
         <div class="todo-app">
             <h2>To-Do List <img src="images/icon.png"></h2>
             <div class="row">
-                <input type="text" id="input-box" placeholder="Add your text...">
+                <input type="text" id="input-box" placeholder="Add your text..." maxlength="200">
                 <button onclick="addTask()">Add</button>
-            </div> 
-            <ul id="list-container">
-                <!-- <li class="checked">Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li> --> 
-            </ul>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+
+            <ul id="list-container"></ul>
+            <p id="empty-message"></p>
+
+            <div class="footer">
+                <span id="counter"></span>
+                <button id="clear-completed">Clear completed</button>
+            </div>
         </div>
         </div>
 
