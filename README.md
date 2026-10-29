@@ -90,7 +90,3 @@ This is a learning project, but suggestions and feedback are welcome. Feel free 
 ## 👤 Author
 
 **bobbyrahmanh** – [GitHub](https://github.com/bobbyrahmanh)
-
-## 📄 License
-
-No license has been specified yet. Add a `LICENSE` file (e.g. MIT) if you'd like others to be able to use this project.
